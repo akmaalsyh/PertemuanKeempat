@@ -57,12 +57,7 @@ void display() {
     cout << "jumlah pass = " << n - 1 << endl; //menampilkan total angka dari elemen yang benar
     cout << endl;
 }
-
-
-
-    while (j >= 0 && arr[j] > temp)                   //4. looping while dimana niali j lebih besar sama dengan 0 dan
-        //arr[j] lebih besar daripada temp
-   
+    arr[j + 1] = temp;                                //5. simpan nilai temp ke dalam arr[j+1]
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

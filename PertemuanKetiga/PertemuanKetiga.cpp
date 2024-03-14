@@ -59,9 +59,8 @@ void display() {
 }
 
 
-    temp = arr[i];                                    //2. simpan nilai arr[1] ke variable sementara temp
+    j = i - 1;                                        //3. setting nilai j sama dengan i-1
 
-   
     
     std::cout << "Hello World!\n";
 }

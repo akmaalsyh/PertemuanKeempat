@@ -58,8 +58,10 @@ void display() {
     cout << endl;
 }
 
-for (i = 1; i <= n - 1; i++)                        //1. looping dengan 1 ddimulai dari 1 hingga n-1
 
+    temp = arr[i];                                    //2. simpan nilai arr[1] ke variable sementara temp
+
+   
     
     std::cout << "Hello World!\n";
 }

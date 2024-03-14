@@ -59,10 +59,10 @@ void display() {
 }
 
 
-    j = i - 1;                                        //3. setting nilai j sama dengan i-1
 
-    
-    std::cout << "Hello World!\n";
+    while (j >= 0 && arr[j] > temp)                   //4. looping while dimana niali j lebih besar sama dengan 0 dan
+        //arr[j] lebih besar daripada temp
+   
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
